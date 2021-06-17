@@ -1,0 +1,10 @@
+{
+    "_id" : ObjectId("6069ae20eee7761b2480e007"),
+    "eventTitle" : "Modernizing the Performance Review Process",
+    "firstName" : "George",
+    "lastName" : "Asimakopoulos",
+    "username" : "user@email.com",
+    "phone" : "123456789",
+    "img" : "2021-04-04T12-16-32.485Z-boy.jpg",
+    "__v" : 0
+}

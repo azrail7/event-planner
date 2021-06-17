@@ -1,0 +1,141 @@
+html,
+body {
+  height: 100%;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #393e46;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.5em;
+  color: #00adb5;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff2e63;
+}
+
+/* Card Section */
+.card {
+  width: 18rem;
+  margin: 1em;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #ff2e63;
+}
+
+.card-text {
+  font-size: 1.5em;
+}
+
+@media screen {
+  .noPrint {
+  }
+  .noScreen {
+    display: none;
+  }
+}
+
+@media print {
+  .noPrint {
+    display: none;
+  }
+  .noScreen {
+  }
+}
+
+/* Button Section */
+#logout {
+  color: #ff2e63;
+}
+
+#logout:hover {
+  background-color: #393e46;
+  border-color: red;
+}
+
+/* Wrap */
+.wrap {
+  min-height: 100%;
+  margin-bottom: -12vh;
+  padding-bottom: 12vh;
+}
+
+/* Main Section */
+.container {
+  text-align: center;
+}
+.form-events {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Bookings Page css */
+
+.bookings-title,
+.bookings-form {
+  margin: 2em 30vh 2em 30vh;
+  padding: 1%;
+  border-radius: 39px;
+  background: #f2f2f2;
+  box-shadow: 11px 11px 56px #bbabab, -11px -11px 56px #ffffff;
+  font-size: 1.5em;
+}
+
+.bookings-title h4 {
+  color: #ff2e63;
+  font-size: 1.5em;
+}
+.bookings-title p {
+  font-size: 0.9em;
+}
+
+.bookings-title {
+  text-align: center;
+}
+
+.bookings-form {
+  display: flex;
+  justify-content: center;
+}
+
+.bookings-form form {
+  width: 90vh;
+}
+
+.bookings-form label {
+  font-size: 1em;
+}
+
+/* Footer Section */
+
+.footer {
+  text-align: center;
+  height: 12vh;
+  width: 100%;
+  background-color: #393e46;
+}
+
+#copyright {
+  font-size: 1em;
+  color: #ef8172;
+  margin-bottom: 0;
+}
+
+/* Icons Section */
+.footer-icon {
+  margin: 20px 10px;
+  font-size: 1em;
+  color: #ef8172;
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}

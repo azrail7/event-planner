@@ -1,0 +1,123 @@
+<%- include ("partials/header") -%>
+<!-- Title for this page -->
+<title>Event Info Page</title>
+
+<!-- Login Page Style CSS -->
+<link rel="stylesheet" href="/css/user_style.css">
+
+
+</head>
+
+
+<body>
+
+  
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a id="logout" class="btn mr-0" href="/logout" role="button">Log Out</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/user">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/my_bookings">My Bookings</a>
+          </li>
+
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control  mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="search-btn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+
+
+   
+    <div class="bookings-title">
+            <h4><%= title %></h4>
+            <p><%= description %></p>
+            <p><%= date %> </p>
+            <p><%= price + " €" %> </p>
+            <p> Remaining Capacity: <%= capacity %></p>
+    </div>
+
+    <div class="bookings-form">
+        <form action="/join" method="POST" enctype="multipart/form-data">
+
+          <div class="form-group">
+              <label>Event Title</label>
+              <input type="text" name="eventTitle"
+              class="form-control form-control-lg"
+              value="<%= title %>" readonly/>
+          </div>
+
+          <div class="form-group">
+              <label>Email</label>
+              <input type="text" name="username"
+              class="form-control form-control-lg"
+              placeholder="<%= email %>" readonly/>
+          </div>
+
+          <div class="form-group">
+              
+              <input type="text" name="firstName"
+              class="form-control form-control-lg"
+              placeholder="First name..."  required="required"/>
+          </div>
+
+          <div class="form-group">
+              <input type="text" name="lastName"
+              class="form-control form-control-lg"
+              placeholder="Last name..." required="required"/>
+          </div>
+
+          <div class="form-group">
+              <input type="text" name="phone"
+              class="form-control form-control-lg"
+              placeholder="Phone number..." required="required"/>
+          </div>
+
+          <div class="form-group">
+              <label for="image">Upload image</label>
+              <input type="file" name="image" id="image"
+              class="form-control-file form-control-sm" required="required">
+          </div>
+
+          <% if (capacity > 0) { %>
+            <div class="form-group">
+                <button name="joinBtn" value="<%= capacity %>" type="submit" class="btn btn-success">Join!</button>
+            </div>
+          <% } else { %>
+            <div class="form-group">
+                <button class="btn btn-danger" disabled>Seminar is full!</button>
+            </div>
+          <% } %>
+
+        </form>
+      </div>
+  </div>
+
+  <div class="footer">
+    <div>
+      <a href="http://www.facebook.com" title="Facebook"><i class="fab fa-facebook-f footer-icon"></i></a>
+      <a href="http://www.twitter.com" title="Twitter"><i class="fab fa-twitter footer-icon"></i></a>
+      <a href="http://www.instagram.com" title="Instagram"><i class="fab fa-instagram footer-icon"></i></a>
+      <a href="http://www.gmail.com" title="Email"><i class="fas fa-envelope footer-icon"></i></a>
+      <p id="copyright">© Copyright 2021</p>
+    </div>
+  </div>
+
+  <!-- Font Awesome Scripts -->
+  <script src="https://kit.fontawesome.com/dfa9e54a69.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap section. -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+
+</html>

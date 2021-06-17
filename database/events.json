@@ -1,0 +1,99 @@
+{
+    "_id" : ObjectId("606078a5cbce2e3214843b3a"),
+    "title" : "Benefits Administration for the Human Resources Generalist",
+    "description" : "Benefits have long since moved from the fringes to the mainstream in the modern corporation. They can easily represent up to 40% of payroll costs. This seminar is designed to provide the nonbenefits specialist with a complete overview of benefits in today's corporation.",
+    "date" : ISODate("2021-04-25T00:00:00.000Z"),
+    "capacity" : 30,
+    "price" : 7,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("60607978cbce2e3214843b3c"),
+    "title" : "Introduction to Compensation Management",
+    "description" : "This seminar is specifically designed to develop an understanding of the basic principles of compensation management. It will leave seminar attendees with knowledge of job evaluation systems, salary survey analysis, salary range development, paying for performance and salary administration. Attendees will also gain an appreciation of the strategic issues which affect compensation policies and procedures.",
+    "date" : ISODate("2021-05-04T00:00:00.000Z"),
+    "capacity" : 25,
+    "price" : 10,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("606079bbcbce2e3214843b3d"),
+    "title" : "Modernizing the Performance Review Process",
+    "description" : "In theory the performance reviews are intended to improve performance, hold people accountable and develop employees. \r\nIn practice it does none of these things. Instead, managers and employees dread the process. HR dreads enforcing it and leadership tends to devalue it. Not much has changed from when it was first introduced. Sure there are on-line performance tools, but they've largely taken an old fashioned process and automated it (and made it more costly). If we only had a better form and process that felt like it was helpful. Guess what? You can. See how to take what you have now and cut it down to a one or two-page form that replace the 'lets just get this over with approach' into a process that will add value for all PM stakeholders.",
+    "date" : ISODate("2021-05-09T00:00:00.000Z"),
+    "capacity" : 15,
+    "price" : 7,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("60607a15cbce2e3214843b3e"),
+    "title" : "A New Look at Diversity and Inclusion",
+    "description" : "All of us have a role in creating inclusive organizations. With organizations becoming increasingly diverse, we as human resource professionals are likely to find diversity and inclusion issues surfacing frequently and unexpectedly when we work with the staff of our organizations. To be effective in the diversity arena, we need periodically to examine our own diversity assumptions and be prepared to address diversity and inclusion from both individual and organizational perspectives. Whether you work as a diversity professional, an HR generalist, HR manager or have responsibility for organizational culture change and strategic planning this session will provide you increased diversity awareness, examples of intervention choices, and implications for compensation decisions. This is an opportunity to examine and enhance your role as ally and advocate for inclusionary behavior and inclusive organizations.",
+    "date" : ISODate("2021-04-11T00:00:00.000Z"),
+    "capacity" : 50,
+    "price" : 15,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("60607a53cbce2e3214843b3f"),
+    "title" : "Football & Social Responsibility",
+    "description" : "Football is not just about winning the next game but also about making a difference in society. The Institute for Business Ethics at the University of St. Gallen offers, in cooperation with the UEFA (Union of European Football Associations), a unique seminar on football and social responsibility. During the four-day-seminar, executives of European football clubs and European football associations will gain comprehensive knowledge on a subject of increasing importance. Your key benefits: In this course, you will gain contemporary and in-depth knowledge for the integration of social responsibility into your football organisation. In addition to lectures and case studies, project-oriented elements are an integral part of the course. The participants will learn about practical and academic topics as well as about tools and methods in the field of social responsibility in order to implement social responsibility into their own organisation.",
+    "date" : ISODate("2021-06-01T00:00:00.000Z"),
+    "capacity" : 100,
+    "price" : 20,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("60607ab2cbce2e3214843b42"),
+    "title" : "Principals of Compensation - Intermediate",
+    "description" : "Develop a more comprehensive understanding of the principles and policies of compensation administration. Develop an expanded knowledge of job evaluation systems and salary administration structures as they pertain to equitable compensation policies and practices. Gain an appreciation of the strategic implications of trends in compensation policy and administration for short-term and long-term business planning.",
+    "date" : ISODate("2021-05-20T00:00:00.000Z"),
+    "capacity" : 30,
+    "price" : 8,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("60607b1bcbce2e3214843b43"),
+    "title" : "Sales Compensation",
+    "description" : "Companies are constantly seeking effective ways to drive revenue generation through well designed Sales Compensation programs. Well designed sales incentive plans motivate and energize the sales force to deliver the value proposition to customers and clients while driving in revenue and profitability for the company. This seminar will cover the principles of designing and installing successful Sales Incentive Compensation programs.",
+    "date" : ISODate("2021-06-23T00:00:00.000Z"),
+    "capacity" : 50,
+    "price" : 15,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("60607b52cbce2e3214843b44"),
+    "title" : "Employment Law",
+    "description" : "This program will provide an update on the many employment laws impacting Massachusetts employers. It will focus on changes to the laws and regulations themselves, as well as highlights of agency interpretations and court opinions. Courts decisions, interpreting our various employment laws, often determine the meaning of those laws and how they should be interpreted and applied in the workplace. The Employment Law Update will focus on helping you comply with new and existing employment laws and regulations.",
+    "date" : ISODate("2021-06-19T00:00:00.000Z"),
+    "capacity" : 30,
+    "price" : 5,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("60607b94cbce2e3214843b45"),
+    "title" : "Important Developments in Labor Law: What All Employers Need to Know Now!",
+    "description" : "Many employers mistakenly assume that developments in labor law or under the National Labor Relations Act (NLRA) do not affect them or their workforce. In this seminar, we will address several recent labor law developments that directly affect all employers, including those worksites that currently have union representation and those that do not.",
+    "date" : ISODate("2021-07-15T00:00:00.000Z"),
+    "capacity" : 100,
+    "price" : 20,
+    "__v" : 0
+}
+
+{
+    "_id" : ObjectId("60607bf7cbce2e3214843b46"),
+    "title" : "Utilizing Surveys & Market Data",
+    "description" : "The purpose of this seminar is to give the participant a solid foundation and understanding of the nature of Market Survey's and other market data. The seminar ranges from learning the key mechanics behind surveys and typical company applications to creative applications. The context for this seminar is to learn about market data & surveys not just from a mechanical standpoint but to leverage the use of any market data as a business partner.",
+    "date" : ISODate("2021-08-05T00:00:00.000Z"),
+    "capacity" : 50,
+    "price" : 15,
+    "__v" : 0
+}

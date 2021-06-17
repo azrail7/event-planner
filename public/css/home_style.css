@@ -1,0 +1,123 @@
+/* Main Section  */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.left,
+.right {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.left {
+  background: #393e46;
+}
+
+.right {
+  background: #222831;
+}
+.left-text {
+  width: 50%;
+  height: 50vh;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  color: #eeeeee;
+}
+/* Login Title */
+
+.login-title {
+  color: #eeeeee;
+}
+
+#login-username,
+#login-password {
+  border-style: none;
+}
+
+/* Form Section */
+form {
+  width: 50%;
+  height: 50vh;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* Button Section */
+
+.btn {
+  color: #eeeeee;
+  background-color: #393e46;
+  border: 1;
+}
+
+.login-button:hover {
+  color: #00adb5;
+}
+
+.register-button:hover {
+  color: red;
+}
+
+.register-button {
+  width: 9.5em;
+}
+
+.google-button {
+  width: 14.5em;
+}
+.google-button:hover {
+  color: #4285f4;
+}
+
+/* Footer Section */
+
+#footer {
+  border-top-style: inset;
+  border-color: rgba(136, 126, 126, 0.349);
+  text-align: center;
+  background-color: #222831;
+  color: #eeeeee;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+  float: none;
+}
+
+.footericons {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+  color: #ef8172;
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}
+
+#Copyright {
+  font-size: 15px;
+}
